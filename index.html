@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clicker</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url('images/Maroh.PNG');
+            background-size: cover;
+        }
+        #bank {
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        button {
+            height: 150px;
+            width: 150px;
+            border-radius: 200px;
+            background-image: url('images/mushr.png');
+            background-size: contain;
+            background-position: center;
+            color: white;
+        }
+        #game {
+            font-size: 4em;
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            background-image: url('images/coin.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        #powerUps>#Button1 {
+            background-image: url('images/upmushr.png');
+        }
+        #powerUps>#Button2 {
+            background-image: url('images/gmushr.png');
+        }
+    </style>
+</head>
+    <h1> SUPER COIN CLICKER </h1>
+<body>
+    <button id="game">0</button>
+    <div id="powerUps">
+        <button id="Button1"></button>
+        <button id="Button2"></button>
+    </div>
+    <p id="bank"> </p>
+    <script src="js/game.js"></script>
+</body>
+</html>
