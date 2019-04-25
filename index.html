@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Clicker</title>
+    <title>Super Coin Cliker</title>
     <style>
         body {
             text-align: center;
@@ -23,7 +23,8 @@
             background-image: url('images/mushr.png');
             background-size: contain;
             background-position: center;
-            color: white;
+            color: black;
+            opacity: 100;
         }
         #game {
             font-size: 4em;
@@ -33,13 +34,16 @@
             background-image: url('images/coin.png');
             background-size: cover;
             background-position: center;
-            color: white;
+            color: black;
         }
         #powerUps>#Button1 {
             background-image: url('images/upmushr.png');
         }
         #powerUps>#Button2 {
             background-image: url('images/gmushr.png');
+        }
+        #powerUps>#Button3 {
+            background-image: url('images/fflowr.png')
         }
     </style>
 </head>
@@ -49,8 +53,10 @@
     <div id="powerUps">
         <button id="Button1"></button>
         <button id="Button2"></button>
+        <button id="Button3"></button>
     </div>
     <p id="bank"> </p>
     <script src="js/game.js"></script>
 </body>
 </html>
+
