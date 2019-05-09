@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-image: url('images/Maroh.PNG');
+    background-image: url('../images/Maroh.gif');
     background-size: cover;
 }
 #bank {
@@ -12,27 +12,28 @@ button {
     height: 150px;
     width: 150px;
     border-radius: 200px;
-    background-image: url('images/mushr.png');
+    background-image: url('../images/mushr.gif');
     background-size: contain;
     background-position: center;
-    color: white;
-}
-#powerUp2  {
-    height: 150px;
-    width: 150px;
-    border-radius: 200px;
-    background-image: url('images/mushr.png');
-    background-size: contain;
-    background-position: center;
-    color: white;
+    color: black;
+    opacity: 100;
 }
 #game {
     font-size: 4em;
     height: 400px;
     width: 400px;
     border-radius: 200px;
-    background-image: url('images/coin.png');
+    background-image: url('../images/coin.gif');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: black;
+}
+#powerUps>#Button1 {
+    background-image: url('../images/upmushr.gif');
+}
+#powerUps>#Button2 {
+    background-image: url('../images/gmushr.gif');
+}
+#powerUps>#Button3 {
+    background-image: url('../images/fflowr.gif')
 }
